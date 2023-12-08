@@ -1,0 +1,23 @@
+.signin-image {
+    background-image: url("./assets//Home.jpg");
+}
+
+.signup-image {
+    background-image: url("./assets//Home2.jpg");
+}
+
+@keyframes giggle {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animate-giggle {
+    animation: giggle 1s infinite;
+}
